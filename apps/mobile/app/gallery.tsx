@@ -11,6 +11,7 @@ import {
   Skeleton,
 } from '@/src/components';
 import { SafetyPill, type SafetyDisplayStatus } from '@/src/components/SafetyPill';
+import { ALL_MOCK_PRODUCTS } from '@/src/data';
 import { useTheme } from '@/src/theme';
 
 const SAFETY_STATUSES: SafetyDisplayStatus[] = ['safe', 'caution', 'unsafe', 'not_assessed'];
@@ -43,6 +44,22 @@ export default function GalleryScreen() {
     <ScrollView
       style={{ backgroundColor: theme.colors.bg }}
       contentContainerStyle={[styles.content, { padding: theme.spacing.lg, gap: theme.spacing.xl }]}>
+      <Section title={`Mock products (${ALL_MOCK_PRODUCTS.length})`}>
+        <View style={{ gap: theme.spacing.md }}>
+          {ALL_MOCK_PRODUCTS.map((product) => (
+            <ProductCard
+              key={product.id}
+              brandName={product.brandName}
+              productName={product.name}
+              variant={product.variant}
+              grade={product.grade}
+              accuracyScore={product.labelAccuracy}
+              safetyStatus={product.safety}
+            />
+          ))}
+        </View>
+      </Section>
+
       <Section title="GradeBadge — every grade">
         <View style={[styles.row, { gap: theme.spacing.lg }]}>
           {GRADES.map((grade: Grade) => (
