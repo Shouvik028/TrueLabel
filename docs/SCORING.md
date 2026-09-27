@@ -41,7 +41,7 @@ caution if any r > 0.5
 safe    otherwise
 ```
 
-- Publishing requires at least one contaminant result; otherwise return error `INSUFFICIENT_SAFETY_DATA`.
+- Publishing requires at least one contaminant result **with a limit**; contaminants without a limit are returned for display but are not scored. Otherwise return error `INSUFFICIENT_SAFETY_DATA`.
 - Return the worst ratio and the list of parameters that triggered caution/unsafe (for display).
 
 ## 3. Label Accuracy Score (LAS, 0–100)
@@ -78,6 +78,8 @@ else LAS = round1( Σ w_i s_i / Σ w_i )       # renormalise over present nutrie
 ```
 
 `round1` = round half away from zero to 1 decimal. Display as an integer (`Math.round`).
+
+Derive the band (§3.3) from the **rounded** LAS, not the raw pre-round value, so the stored number and the band can never disagree.
 
 ### 3.3 Bands
 
@@ -142,6 +144,8 @@ for each contaminant with a limit: c_j = 100 * (1 - min(r_j, 1))
 C = min_j c_j            # the worst contaminant dominates
 ```
 
+If no contaminant has a limit, return error `INSUFFICIENT_CONTAMINANT_DATA`. In practice this only arises when Food Grade is computed on its own — Safety's publishing rule (§2) already requires at least one contaminant with a limit.
+
 ### 4.3 Additive sub-score A
 
 ```
@@ -173,6 +177,8 @@ Additives come from the label version linked to the batch.
 | < 20 | F | Avoid |
 
 Unsafe safety status always yields F.
+
+Round the composite (round1) before applying these thresholds, so the stored number and the letter can never disagree.
 
 ## 5. Freshness
 

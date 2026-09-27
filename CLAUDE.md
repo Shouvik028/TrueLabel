@@ -55,6 +55,7 @@ If documents conflict, precedence is: user instruction > DECISIONS.md > SCORING.
 6. One branch = one feature or fix. If the work grows into a second feature, stop and propose a separate branch.
 7. For work that is neither a feature nor a fix (docs-only, tooling, dependency bumps), ask the user which branch to use.
 8. At the end of each task, give the user: the branch name, the list of changed files, and a suggested commit message. Nothing else happens in git.
+9. Never add a `Co-Authored-By` line or any other trailer, signature or AI attribution to commit messages or pull request descriptions, including in suggested commit messages.
 
 ## Commands (once scaffolded)
 

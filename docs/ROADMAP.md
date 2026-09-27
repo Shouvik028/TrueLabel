@@ -20,11 +20,11 @@ Legend: 📱 = check on iPhone in Expo Go.
 
 ## Phase 1 — Scoring engine, design system, mock data
 
-- [ ] `packages/core/src/types`: Product, Brand, Category, LabelVersion, TestResult, Score, enums (grade, band, safety)
-- [ ] `packages/core/src/scoring/config.ts` with all constants from `SCORING.md` and `METHODOLOGY_VERSION = 'v1.0-draft'`
-- [ ] `computeSafety`, `computeLabelAccuracy`, `computeFoodGrade`, `computeFreshness`, `computeProductScore`
-- [ ] Vitest tests for every vector V1–V10 in `SCORING.md`, plus edge cases (missing values, negative input rejected)
-- [ ] Zod schemas for label data and lab results
+- [x] `packages/core/src/types`: Product, Brand, Category, LabelVersion, TestResult, Score, enums (grade, band, safety)
+- [x] `packages/core/src/scoring/config.ts` with all constants from `SCORING.md` and `METHODOLOGY_VERSION = 'v1.0-draft'`
+- [x] `computeSafety`, `computeLabelAccuracy`, `computeFoodGrade`, `computeFreshness`, `computeProductScore`
+- [x] Vitest tests for every vector V1–V10 in `SCORING.md`, plus edge cases (missing values, negative input rejected)
+- [x] Zod schemas for label data and lab results
 - [ ] Theme tokens, `ThemeProvider`, `useTheme` (light/dark follows system)
 - [ ] Grade colour contrast test (≥ 4.5:1)
 - [ ] Components: `GradeBadge`, `AccuracyMeter`, `SafetyPill`, `FreshnessTag`, `ProductCard`, `EmptyState`, `Skeleton`, `PremiumLock`
