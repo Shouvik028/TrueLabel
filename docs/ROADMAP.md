@@ -6,16 +6,16 @@ Legend: 📱 = check on iPhone in Expo Go.
 
 ## Phase 0 — Repo and tooling
 
-- [ ] Inspect the existing repo contents; do not overwrite existing files without asking
-- [ ] Confirm with the user the SDK version shown in Expo Go on their iPhone (expected: 54)
-- [ ] Root `package.json` with npm workspaces (`apps/*`, `packages/*`) and root scripts: `mobile`, `mobile:tunnel`, `admin`, `test`, `typecheck`, `lint`
-- [ ] `tsconfig.base.json` (strict), root ESLint + Prettier config, `.editorconfig`, root `.gitignore` (node_modules, .env*, .expo, dist, .next)
-- [ ] Scaffold `apps/mobile` with `npx create-expo-app@latest apps/mobile --template default@sdk-54`; remove template demo screens
-- [ ] Scaffold `packages/core` (TypeScript library, Vitest configured, exported from `src/index.ts`)
-- [ ] Mobile can import from `packages/core` (verify Metro resolves it)
-- [ ] `.env.example` files for mobile (and admin placeholder)
-- [ ] `README.md`: prerequisites (Node 20.19.4+, Expo account, Expo Go), setup, how to run on iPhone
-- [ ] `npx expo-doctor` clean
+- [x] Inspect the existing repo contents; do not overwrite existing files without asking
+- [x] Confirm with the user the SDK version shown in Expo Go on their iPhone (expected: 54)
+- [x] Root `package.json` with npm workspaces (`apps/*`, `packages/*`) and root scripts: `mobile`, `mobile:tunnel`, `admin`, `test`, `typecheck`, `lint`
+- [x] `tsconfig.base.json` (strict), root ESLint + Prettier config, `.editorconfig`, root `.gitignore` (node_modules, .env*, .expo, dist, .next)
+- [x] Scaffold `apps/mobile` with `npx create-expo-app@latest apps/mobile --template default@sdk-54`; remove template demo screens
+- [x] Scaffold `packages/core` (TypeScript library, Vitest configured, exported from `src/index.ts`)
+- [x] Mobile can import from `packages/core` (verify Metro resolves it)
+- [x] `.env.example` files for mobile (and admin placeholder)
+- [x] `README.md`: prerequisites (Node 20.19.4+, Expo account, Expo Go), setup, how to run on iPhone
+- [x] `npx expo-doctor` clean
 - [ ] 📱 App opens in Expo Go and shows a placeholder "TrueLabel" screen
 
 ## Phase 1 — Scoring engine, design system, mock data
