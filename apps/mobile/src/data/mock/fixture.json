@@ -1,0 +1,2980 @@
+{
+  "methodologyVersion": "v1.0-draft",
+  "generatedAsOf": "2026-09-27",
+  "products": [
+    {
+      "id": "prod-w01",
+      "brandId": "brand-demo-nutrition",
+      "brandName": "Demo Nutrition Co.",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Isolate Chocolate",
+      "variant": "1 kg",
+      "packSize": "1 kg",
+      "imageUrls": [],
+      "grade": "A",
+      "gradeComposite": 92,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "safe",
+      "publishedAt": "2026-08-10",
+      "nextTestDue": "2026-10-10",
+      "isStale": false,
+      "barcodes": [
+        "8901000000019"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein isolate, cocoa powder, natural flavour, sucralose.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000123",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 410,
+            "lab": 390.5,
+            "deviationPct": 4.7560975609756095,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 68.4,
+            "lab": 72,
+            "deviationPct": 5.263157894736834,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 8.4,
+            "lab": 8,
+            "deviationPct": 4.761904761904765,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 4.57,
+            "lab": 4.35,
+            "deviationPct": 4.814004376367628,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 7.35,
+            "lab": 7,
+            "deviationPct": 4.761904761904757,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 2.13,
+            "lab": 2.025,
+            "deviationPct": 4.929577464788732,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 2.42,
+            "lab": 2.55,
+            "deviationPct": 5.371900826446277,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 204.8,
+            "lab": 195,
+            "deviationPct": 4.785156250000005,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w01-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-10",
+            "grade": "A",
+            "gradeComposite": 92,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w02",
+      "brandId": "brand-sample-foods",
+      "brandName": "Sample Foods Pvt Ltd",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Concentrate Vanilla",
+      "variant": "1 kg",
+      "packSize": "1 kg",
+      "imageUrls": [],
+      "grade": "B",
+      "gradeComposite": 69.5,
+      "labelAccuracy": 79.2,
+      "accuracyBand": "minor_gaps",
+      "safety": "safe",
+      "publishedAt": "2026-08-20",
+      "nextTestDue": "2026-10-20",
+      "isStale": false,
+      "barcodes": [
+        "8901000000026"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein concentrate, vanilla flavour, natural sweetener.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000456",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 489.3,
+            "lab": 425.5,
+            "deviationPct": 13.039035356631926,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.80482321684039
+          },
+          {
+            "code": "protein_g",
+            "label": 52.7,
+            "lab": 62,
+            "deviationPct": 17.647058823529406,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.76470588235299
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 9.2,
+            "lab": 8,
+            "deviationPct": 13.04347826086956,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565221
+          },
+          {
+            "code": "sugar_g",
+            "label": 10.18,
+            "lab": 8.85,
+            "deviationPct": 13.064833005893911,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.67583497053046
+          },
+          {
+            "code": "total_fat_g",
+            "label": 8.05,
+            "lab": 7,
+            "deviationPct": 13.043478260869573,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565214
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 4.34,
+            "lab": 3.775,
+            "deviationPct": 13.018433179723502,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.9078341013825
+          },
+          {
+            "code": "fibre_g",
+            "label": 0.89,
+            "lab": 1.05,
+            "deviationPct": 17.97752808988764,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 60.112359550561806
+          },
+          {
+            "code": "sodium_mg",
+            "label": 396.75,
+            "lab": 345,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w02-c2",
+            "cycleNumber": 2,
+            "publishedAt": "2026-08-20",
+            "grade": "B",
+            "gradeComposite": 69.5,
+            "labelAccuracy": 79.2,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          },
+          {
+            "batchId": "batch-w02-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-03-15",
+            "grade": "B",
+            "gradeComposite": 65,
+            "labelAccuracy": 88.3,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w03",
+      "brandId": "brand-northline-wellness",
+      "brandName": "Northline Wellness",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Blend Coffee",
+      "variant": "908 g",
+      "packSize": "908 g",
+      "imageUrls": [],
+      "grade": "C",
+      "gradeComposite": 51.3,
+      "labelAccuracy": 69.3,
+      "accuracyBand": "misleading",
+      "safety": "safe",
+      "publishedAt": "2026-07-05",
+      "nextTestDue": "2026-10-05",
+      "isStale": false,
+      "barcodes": [
+        "8901000000033"
+      ],
+      "labelVersion": {
+        "servingSizeG": 33,
+        "ingredientsText": "Whey protein blend, instant coffee, cocoa powder, natural flavour.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000789",
+        "vegMark": "veg",
+        "processingLevel": 2,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 531,
+            "lab": 450,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          },
+          {
+            "code": "protein_g",
+            "label": 45.1,
+            "lab": 55,
+            "deviationPct": 21.95121951219512,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 40.243902439024424
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 9.44,
+            "lab": 8,
+            "deviationPct": 15.254237288135588,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932208
+          },
+          {
+            "code": "sugar_g",
+            "label": 14.16,
+            "lab": 12,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          },
+          {
+            "code": "total_fat_g",
+            "label": 8.26,
+            "lab": 7,
+            "deviationPct": 15.254237288135592,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932206
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 5.9,
+            "lab": 5,
+            "deviationPct": 15.254237288135597,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932203
+          },
+          {
+            "code": "fibre_g",
+            "label": 0,
+            "lab": 0,
+            "deviationPct": null,
+            "direction": "none",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 531,
+            "lab": 450,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w03-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-07-05",
+            "grade": "C",
+            "gradeComposite": 51.3,
+            "labelAccuracy": 69.3,
+            "accuracyBand": "misleading",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w04",
+      "brandId": "brand-purecycle-foods",
+      "brandName": "PureCycle Foods",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Isolate Unflavoured",
+      "variant": "2 kg",
+      "packSize": "2 kg",
+      "imageUrls": [],
+      "grade": "D",
+      "gradeComposite": 47.8,
+      "labelAccuracy": 44,
+      "accuracyBand": "inaccurate",
+      "safety": "safe",
+      "publishedAt": "2026-04-01",
+      "nextTestDue": "2026-05-01",
+      "isStale": true,
+      "barcodes": [
+        "8901000000040"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein isolate, soy lecithin.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000234",
+        "vegMark": "veg",
+        "processingLevel": 3,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 562.5,
+            "lab": 450,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "protein_g",
+            "label": 41.25,
+            "lab": 55,
+            "deviationPct": 33.33333333333333,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 0
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 10,
+            "lab": 8,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "sugar_g",
+            "label": 15,
+            "lab": 12,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "total_fat_g",
+            "label": 8.75,
+            "lab": 7,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 6.25,
+            "lab": 5,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "fibre_g",
+            "label": 0,
+            "lab": 0,
+            "deviationPct": null,
+            "direction": "none",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 562.5,
+            "lab": 450,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w04-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-04-01",
+            "grade": "D",
+            "gradeComposite": 47.8,
+            "labelAccuracy": 44,
+            "accuracyBand": "inaccurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w05",
+      "brandId": "brand-anchorpoint-nutrition",
+      "brandName": "Anchorpoint Nutrition",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Concentrate Mango",
+      "variant": "1 kg",
+      "packSize": "1 kg",
+      "imageUrls": [],
+      "grade": "E",
+      "gradeComposite": 29.5,
+      "labelAccuracy": 81.6,
+      "accuracyBand": "minor_gaps",
+      "safety": "safe",
+      "publishedAt": "2026-08-15",
+      "nextTestDue": "2026-10-15",
+      "isStale": false,
+      "barcodes": [
+        "8901000000057"
+      ],
+      "labelVersion": {
+        "servingSizeG": 33,
+        "ingredientsText": "Whey protein concentrate, mango flavour, caramel colour (class IV), BHA (antioxidant).",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000567",
+        "vegMark": "veg",
+        "processingLevel": 4,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 517.5,
+            "lab": 450,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "protein_g",
+            "label": 46.75,
+            "lab": 55,
+            "deviationPct": 17.647058823529413,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.764705882352956
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 9.2,
+            "lab": 8,
+            "deviationPct": 13.04347826086956,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565221
+          },
+          {
+            "code": "sugar_g",
+            "label": 13.8,
+            "lab": 12,
+            "deviationPct": 13.04347826086957,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565216
+          },
+          {
+            "code": "total_fat_g",
+            "label": 8.05,
+            "lab": 7,
+            "deviationPct": 13.043478260869573,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565214
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 5.75,
+            "lab": 5,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "fibre_g",
+            "label": 0,
+            "lab": 0,
+            "deviationPct": null,
+            "direction": "none",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 517.5,
+            "lab": 450,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.75,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.3
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w05-c3",
+            "cycleNumber": 3,
+            "publishedAt": "2026-08-15",
+            "grade": "E",
+            "gradeComposite": 29.5,
+            "labelAccuracy": 81.6,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          },
+          {
+            "batchId": "batch-w05-c2",
+            "cycleNumber": 2,
+            "publishedAt": "2026-04-12",
+            "grade": "E",
+            "gradeComposite": 34.3,
+            "labelAccuracy": 72.9,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          },
+          {
+            "batchId": "batch-w05-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-01-10",
+            "grade": "D",
+            "gradeComposite": 40,
+            "labelAccuracy": 55.5,
+            "accuracyBand": "misleading",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w06",
+      "brandId": "brand-demo-nutrition",
+      "brandName": "Demo Nutrition Co.",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Isolate Cookies & Cream",
+      "variant": "1 kg",
+      "packSize": "1 kg",
+      "imageUrls": [],
+      "grade": "F",
+      "gradeComposite": 52.5,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "unsafe",
+      "publishedAt": "2026-09-05",
+      "nextTestDue": "2026-10-05",
+      "isStale": false,
+      "barcodes": [
+        "8901000000064"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein isolate, cocoa powder, natural flavour.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000123",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 435.75,
+            "lab": 415,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 61.75,
+            "lab": 65,
+            "deviationPct": 5.263157894736842,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 8.4,
+            "lab": 8,
+            "deviationPct": 4.761904761904765,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 7.88,
+            "lab": 7.5,
+            "deviationPct": 4.822335025380709,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 7.35,
+            "lab": 7,
+            "deviationPct": 4.761904761904757,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 3.41,
+            "lab": 3.25,
+            "deviationPct": 4.692082111436954,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.43,
+            "lab": 1.5,
+            "deviationPct": 4.895104895104899,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 315,
+            "lab": 300,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 3.25,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 1.3
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w06-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-09-05",
+            "grade": "F",
+            "gradeComposite": 52.5,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "unsafe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w07",
+      "brandId": "brand-sample-foods",
+      "brandName": "Sample Foods Pvt Ltd",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Isolate Strawberry",
+      "variant": "1 kg",
+      "packSize": "1 kg",
+      "imageUrls": [],
+      "grade": "A",
+      "gradeComposite": 87.5,
+      "labelAccuracy": 79.2,
+      "accuracyBand": "minor_gaps",
+      "safety": "safe",
+      "publishedAt": "2026-08-25",
+      "nextTestDue": "2026-11-25",
+      "isStale": false,
+      "barcodes": [
+        "8901000000071"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein isolate, strawberry flavour, natural colour.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000456",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 457.13,
+            "lab": 397.5,
+            "deviationPct": 13.044429374576158,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.77785312711923
+          },
+          {
+            "code": "protein_g",
+            "label": 59.5,
+            "lab": 70,
+            "deviationPct": 17.647058823529413,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.764705882352956
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 9.2,
+            "lab": 8,
+            "deviationPct": 13.04347826086956,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565221
+          },
+          {
+            "code": "sugar_g",
+            "label": 6.04,
+            "lab": 5.25,
+            "deviationPct": 13.079470198675496,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.60264900662254
+          },
+          {
+            "code": "total_fat_g",
+            "label": 8.05,
+            "lab": 7,
+            "deviationPct": 13.043478260869573,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565214
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 2.73,
+            "lab": 2.375,
+            "deviationPct": 13.003663003663002,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.981684981685
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.91,
+            "lab": 2.25,
+            "deviationPct": 17.801047120418854,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 60.994764397905755
+          },
+          {
+            "code": "sodium_mg",
+            "label": 258.75,
+            "lab": 225,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w07-c2",
+            "cycleNumber": 2,
+            "publishedAt": "2026-08-25",
+            "grade": "A",
+            "gradeComposite": 87.5,
+            "labelAccuracy": 79.2,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          },
+          {
+            "batchId": "batch-w07-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-02-20",
+            "grade": "A",
+            "gradeComposite": 83,
+            "labelAccuracy": 92,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w08",
+      "brandId": "brand-northline-wellness",
+      "brandName": "Northline Wellness",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Concentrate Chocolate",
+      "variant": "2 kg",
+      "packSize": "2 kg",
+      "imageUrls": [],
+      "grade": "B",
+      "gradeComposite": 74,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "safe",
+      "publishedAt": "2026-08-01",
+      "nextTestDue": "2026-10-01",
+      "isStale": false,
+      "barcodes": [
+        "8901000000088"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein concentrate, cocoa powder, natural flavour.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000789",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 439.43,
+            "lab": 418.5,
+            "deviationPct": 4.76298841681269,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 60.8,
+            "lab": 64,
+            "deviationPct": 5.263157894736848,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 8.4,
+            "lab": 8,
+            "deviationPct": 4.761904761904765,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 8.35,
+            "lab": 7.95,
+            "deviationPct": 4.790419161676641,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 7.35,
+            "lab": 7,
+            "deviationPct": 4.761904761904757,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 3.6,
+            "lab": 3.425,
+            "deviationPct": 4.861111111111118,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.28,
+            "lab": 1.35,
+            "deviationPct": 5.468750000000004,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 330.75,
+            "lab": 315,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w08-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-01",
+            "grade": "B",
+            "gradeComposite": 74,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w09",
+      "brandId": "brand-purecycle-foods",
+      "brandName": "PureCycle Foods",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Blend Vanilla",
+      "variant": "1 kg",
+      "packSize": "1 kg",
+      "imageUrls": [],
+      "grade": "C",
+      "gradeComposite": 56,
+      "labelAccuracy": null,
+      "accuracyBand": "insufficient_data",
+      "safety": "safe",
+      "publishedAt": "2026-07-20",
+      "nextTestDue": "2026-09-20",
+      "isStale": false,
+      "barcodes": [
+        "8901000000095"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein blend, vanilla flavour.",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000234",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 468.83,
+            "lab": 446.5,
+            "deviationPct": 4.762920461574555,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 53.2,
+            "lab": 56,
+            "deviationPct": 5.263157894736836,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w09-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-07-20",
+            "grade": "C",
+            "gradeComposite": 56,
+            "labelAccuracy": null,
+            "accuracyBand": "insufficient_data",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-w10",
+      "brandId": "brand-anchorpoint-nutrition",
+      "brandName": "Anchorpoint Nutrition",
+      "categoryId": "cat-whey-protein",
+      "categorySlug": "whey-protein",
+      "name": "Whey Concentrate Butterscotch",
+      "variant": "908 g",
+      "packSize": "908 g",
+      "imageUrls": [],
+      "grade": "D",
+      "gradeComposite": 47.3,
+      "labelAccuracy": 62,
+      "accuracyBand": "misleading",
+      "safety": "safe",
+      "publishedAt": "2026-08-05",
+      "nextTestDue": "2026-10-05",
+      "isStale": false,
+      "barcodes": [
+        "8901000000101"
+      ],
+      "labelVersion": {
+        "servingSizeG": 30,
+        "ingredientsText": "Whey protein concentrate, butterscotch flavour, soy lecithin, MSG (flavour enhancer).",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000567",
+        "vegMark": "veg",
+        "processingLevel": 2,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 531,
+            "lab": 450,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          },
+          {
+            "code": "protein_g",
+            "label": 74.25,
+            "lab": 55,
+            "deviationPct": 25.925925925925924,
+            "direction": "under",
+            "harmful": true,
+            "subScore": 0
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 9.44,
+            "lab": 8,
+            "deviationPct": 15.254237288135588,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932208
+          },
+          {
+            "code": "sugar_g",
+            "label": 14.16,
+            "lab": 12,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          },
+          {
+            "code": "total_fat_g",
+            "label": 8.26,
+            "lab": 7,
+            "deviationPct": 15.254237288135592,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932206
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 5.9,
+            "lab": 5,
+            "deviationPct": 15.254237288135597,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932203
+          },
+          {
+            "code": "fibre_g",
+            "label": 0,
+            "lab": 0,
+            "deviationPct": null,
+            "direction": "none",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 531,
+            "lab": 450,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-w10-c2",
+            "cycleNumber": 2,
+            "publishedAt": "2026-08-05",
+            "grade": "D",
+            "gradeComposite": 47.3,
+            "labelAccuracy": 62,
+            "accuracyBand": "misleading",
+            "safety": "safe"
+          },
+          {
+            "batchId": "batch-w10-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-03-01",
+            "grade": "C",
+            "gradeComposite": 51.8,
+            "labelAccuracy": 48.9,
+            "accuracyBand": "inaccurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b01",
+      "brandId": "brand-demo-nutrition",
+      "brandName": "Demo Nutrition Co.",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Peanut Protein Bar",
+      "variant": "12 pack",
+      "packSize": "12 x 60 g",
+      "imageUrls": [],
+      "grade": "E",
+      "gradeComposite": 30,
+      "labelAccuracy": 38,
+      "accuracyBand": "inaccurate",
+      "safety": "safe",
+      "publishedAt": "2026-08-12",
+      "nextTestDue": "2026-10-12",
+      "isStale": false,
+      "barcodes": [
+        "8901000000118"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Peanuts, protein blend (whey, milk), caramel colour (class IV), MSG (flavour enhancer).",
+        "allergens": [
+          "peanut",
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000123",
+        "vegMark": "veg",
+        "processingLevel": 4,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 562.5,
+            "lab": 450,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "protein_g",
+            "label": 7.5,
+            "lab": 10,
+            "deviationPct": 33.33333333333333,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 0
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 50,
+            "lab": 40,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "sugar_g",
+            "label": 25,
+            "lab": 20,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "total_fat_g",
+            "label": 18.75,
+            "lab": 15,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 10,
+            "lab": 8,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.5,
+            "lab": 2,
+            "deviationPct": 33.33333333333333,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 0
+          },
+          {
+            "code": "sodium_mg",
+            "label": 625,
+            "lab": 500,
+            "deviationPct": 20,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 50.000000000000014
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 1,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.4
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b01-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-12",
+            "grade": "E",
+            "gradeComposite": 30,
+            "labelAccuracy": 38,
+            "accuracyBand": "inaccurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b02",
+      "brandId": "brand-sample-foods",
+      "brandName": "Sample Foods Pvt Ltd",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Chocolate Fudge Protein Bar",
+      "variant": "12 pack",
+      "packSize": "12 x 60 g",
+      "imageUrls": [],
+      "grade": "F",
+      "gradeComposite": 17,
+      "labelAccuracy": 79.3,
+      "accuracyBand": "minor_gaps",
+      "safety": "caution",
+      "publishedAt": "2026-07-28",
+      "nextTestDue": "2026-09-28",
+      "isStale": false,
+      "barcodes": [
+        "8901000000125"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Protein blend (whey, soy), chocolate fudge, tartrazine (colour), caramel colour (class IV).",
+        "allergens": [
+          "milk",
+          "soy"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000456",
+        "vegMark": "veg",
+        "processingLevel": 4,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 517.5,
+            "lab": 450,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "protein_g",
+            "label": 8.5,
+            "lab": 10,
+            "deviationPct": 17.647058823529413,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.764705882352956
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 46,
+            "lab": 40,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sugar_g",
+            "label": 23,
+            "lab": 20,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "total_fat_g",
+            "label": 17.25,
+            "lab": 15,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 9.2,
+            "lab": 8,
+            "deviationPct": 13.04347826086956,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565221
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.7,
+            "lab": 2,
+            "deviationPct": 17.647058823529417,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.76470588235294
+          },
+          {
+            "code": "sodium_mg",
+            "label": 575,
+            "lab": 500,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 2,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.8
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b02-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-07-28",
+            "grade": "F",
+            "gradeComposite": 17,
+            "labelAccuracy": 79.3,
+            "accuracyBand": "minor_gaps",
+            "safety": "caution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b03",
+      "brandId": "brand-northline-wellness",
+      "brandName": "Northline Wellness",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Almond Crunch Protein Bar",
+      "variant": "6 pack",
+      "packSize": "6 x 60 g",
+      "imageUrls": [],
+      "grade": "C",
+      "gradeComposite": 55.3,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "safe",
+      "publishedAt": "2026-08-18",
+      "nextTestDue": "2026-10-18",
+      "isStale": false,
+      "barcodes": [
+        "8901000000132"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Almonds, protein blend (whey, milk), sodium benzoate (preservative).",
+        "allergens": [
+          "milk",
+          "tree_nut"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000789",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 462,
+            "lab": 440,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 10.93,
+            "lab": 11.5,
+            "deviationPct": 5.215004574565419,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 42,
+            "lab": 40,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 19.43,
+            "lab": 18.5,
+            "deviationPct": 4.786412763767369,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 15.75,
+            "lab": 15,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 7.77,
+            "lab": 7.4,
+            "deviationPct": 4.761904761904752,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 2.47,
+            "lab": 2.6,
+            "deviationPct": 5.263157894736838,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 488.25,
+            "lab": 465,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b03-c2",
+            "cycleNumber": 2,
+            "publishedAt": "2026-08-18",
+            "grade": "C",
+            "gradeComposite": 55.3,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          },
+          {
+            "batchId": "batch-b03-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-03-10",
+            "grade": "C",
+            "gradeComposite": 53,
+            "labelAccuracy": 99.9,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b04",
+      "brandId": "brand-purecycle-foods",
+      "brandName": "PureCycle Foods",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Coconut Protein Bar",
+      "variant": "12 pack",
+      "packSize": "12 x 55 g",
+      "imageUrls": [],
+      "grade": "B",
+      "gradeComposite": 71.8,
+      "labelAccuracy": 79.3,
+      "accuracyBand": "minor_gaps",
+      "safety": "caution",
+      "publishedAt": "2026-08-22",
+      "nextTestDue": "2026-10-22",
+      "isStale": false,
+      "barcodes": [
+        "8901000000149"
+      ],
+      "labelVersion": {
+        "servingSizeG": 55,
+        "ingredientsText": "Desiccated coconut, protein blend (whey, soy), natural flavour.",
+        "allergens": [
+          "milk",
+          "soy"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000234",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 471.5,
+            "lab": 410,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "protein_g",
+            "label": 13.6,
+            "lab": 16,
+            "deviationPct": 17.647058823529417,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.76470588235294
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 46,
+            "lab": 40,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sugar_g",
+            "label": 16.1,
+            "lab": 14,
+            "deviationPct": 13.043478260869573,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565214
+          },
+          {
+            "code": "total_fat_g",
+            "label": 17.25,
+            "lab": 15,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 6.44,
+            "lab": 5.6,
+            "deviationPct": 13.043478260869575,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565214
+          },
+          {
+            "code": "fibre_g",
+            "label": 3.74,
+            "lab": 4.4,
+            "deviationPct": 17.647058823529417,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.76470588235294
+          },
+          {
+            "code": "sodium_mg",
+            "label": 414,
+            "lab": 360,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b04-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-22",
+            "grade": "B",
+            "gradeComposite": 71.8,
+            "labelAccuracy": 79.3,
+            "accuracyBand": "minor_gaps",
+            "safety": "caution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b05",
+      "brandId": "brand-anchorpoint-nutrition",
+      "brandName": "Anchorpoint Nutrition",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Double Chocolate Protein Bar",
+      "variant": "6 pack",
+      "packSize": "6 x 60 g",
+      "imageUrls": [],
+      "grade": "A",
+      "gradeComposite": 94.3,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "safe",
+      "publishedAt": "2026-09-01",
+      "nextTestDue": "2026-11-01",
+      "isStale": false,
+      "barcodes": [
+        "8901000000156"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Protein blend (whey, soy), cocoa powder, dark chocolate.",
+        "allergens": [
+          "milk",
+          "soy"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000567",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 378,
+            "lab": 360,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 22.33,
+            "lab": 23.5,
+            "deviationPct": 5.239587998208696,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 42,
+            "lab": 40,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 6.83,
+            "lab": 6.5,
+            "deviationPct": 4.831625183016106,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 15.75,
+            "lab": 15,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 2.73,
+            "lab": 2.6,
+            "deviationPct": 4.761904761904758,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 7.03,
+            "lab": 7.4,
+            "deviationPct": 5.263157894736843,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 194.25,
+            "lab": 185,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b05-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-09-01",
+            "grade": "A",
+            "gradeComposite": 94.3,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b06",
+      "brandId": "brand-demo-nutrition",
+      "brandName": "Demo Nutrition Co.",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Caramel Protein Bar",
+      "variant": "12 pack",
+      "packSize": "12 x 60 g",
+      "imageUrls": [],
+      "grade": "D",
+      "gradeComposite": 42.3,
+      "labelAccuracy": 65.7,
+      "accuracyBand": "misleading",
+      "safety": "safe",
+      "publishedAt": "2026-07-15",
+      "nextTestDue": "2026-09-15",
+      "isStale": false,
+      "barcodes": [
+        "8901000000163"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Protein blend (whey, milk), caramel colour (class IV), cellulose gum (thickener).",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000123",
+        "vegMark": "veg",
+        "processingLevel": 3,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 531,
+            "lab": 450,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          },
+          {
+            "code": "protein_g",
+            "label": 8.2,
+            "lab": 10,
+            "deviationPct": 21.951219512195134,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 40.24390243902435
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 47.2,
+            "lab": 40,
+            "deviationPct": 15.254237288135597,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932203
+          },
+          {
+            "code": "sugar_g",
+            "label": 23.6,
+            "lab": 20,
+            "deviationPct": 15.254237288135597,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932203
+          },
+          {
+            "code": "total_fat_g",
+            "label": 17.7,
+            "lab": 15,
+            "deviationPct": 15.254237288135588,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932208
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 9.44,
+            "lab": 8,
+            "deviationPct": 15.254237288135588,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932208
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.64,
+            "lab": 2,
+            "deviationPct": 21.95121951219513,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 40.24390243902437
+          },
+          {
+            "code": "sodium_mg",
+            "label": 590,
+            "lab": 500,
+            "deviationPct": 15.254237288135593,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 73.72881355932205
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.375,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.15
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b06-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-07-15",
+            "grade": "D",
+            "gradeComposite": 42.3,
+            "labelAccuracy": 65.7,
+            "accuracyBand": "misleading",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b07",
+      "brandId": "brand-sample-foods",
+      "brandName": "Sample Foods Pvt Ltd",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Berry Protein Bar",
+      "variant": "6 pack",
+      "packSize": "6 x 55 g",
+      "imageUrls": [],
+      "grade": "B",
+      "gradeComposite": 76.3,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "safe",
+      "publishedAt": "2026-08-05",
+      "nextTestDue": "2026-10-05",
+      "isStale": false,
+      "barcodes": [
+        "8901000000170"
+      ],
+      "labelVersion": {
+        "servingSizeG": 55,
+        "ingredientsText": "Protein blend (whey, soy), mixed berries, natural flavour.",
+        "allergens": [
+          "milk",
+          "soy"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000456",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 420,
+            "lab": 400,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 16.63,
+            "lab": 17.5,
+            "deviationPct": 5.2315093205051175,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 42,
+            "lab": 40,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 13.13,
+            "lab": 12.5,
+            "deviationPct": 4.798172124904804,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 15.75,
+            "lab": 15,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 5.25,
+            "lab": 5,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 4.75,
+            "lab": 5,
+            "deviationPct": 5.263157894736842,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 341.25,
+            "lab": 325,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b07-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-05",
+            "grade": "B",
+            "gradeComposite": 76.3,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b08",
+      "brandId": "brand-northline-wellness",
+      "brandName": "Northline Wellness",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Peanut Butter Protein Bar",
+      "variant": "12 pack",
+      "packSize": "12 x 60 g",
+      "imageUrls": [],
+      "grade": "C",
+      "gradeComposite": 53.8,
+      "labelAccuracy": 79.3,
+      "accuracyBand": "minor_gaps",
+      "safety": "safe",
+      "publishedAt": "2026-08-28",
+      "nextTestDue": "2026-10-28",
+      "isStale": false,
+      "barcodes": [
+        "8901000000187"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Peanuts, peanut butter, protein blend (whey, milk).",
+        "allergens": [
+          "peanut",
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000789",
+        "vegMark": "veg",
+        "processingLevel": 1,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 517.5,
+            "lab": 450,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "protein_g",
+            "label": 8.5,
+            "lab": 10,
+            "deviationPct": 17.647058823529413,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.764705882352956
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 46,
+            "lab": 40,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sugar_g",
+            "label": 23,
+            "lab": 20,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "total_fat_g",
+            "label": 17.25,
+            "lab": 15,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 9.2,
+            "lab": 8,
+            "deviationPct": 13.04347826086956,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565221
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.7,
+            "lab": 2,
+            "deviationPct": 17.647058823529417,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.76470588235294
+          },
+          {
+            "code": "sodium_mg",
+            "label": 575,
+            "lab": 500,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.05
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b08-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-28",
+            "grade": "C",
+            "gradeComposite": 53.8,
+            "labelAccuracy": 79.3,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b09",
+      "brandId": "brand-purecycle-foods",
+      "brandName": "PureCycle Foods",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Oats & Honey Protein Bar",
+      "variant": "12 pack",
+      "packSize": "12 x 60 g",
+      "imageUrls": [],
+      "grade": "E",
+      "gradeComposite": 30.8,
+      "labelAccuracy": 100,
+      "accuracyBand": "accurate",
+      "safety": "safe",
+      "publishedAt": "2026-07-10",
+      "nextTestDue": "2026-09-10",
+      "isStale": false,
+      "barcodes": [
+        "8901000000194"
+      ],
+      "labelVersion": {
+        "servingSizeG": 60,
+        "ingredientsText": "Rolled oats, honey, protein blend (whey, milk), sucralose, MSG (flavour enhancer).",
+        "allergens": [
+          "milk"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000234",
+        "vegMark": "veg",
+        "processingLevel": 4,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 472.5,
+            "lab": 450,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "protein_g",
+            "label": 9.5,
+            "lab": 10,
+            "deviationPct": 5.263157894736842,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 42,
+            "lab": 40,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sugar_g",
+            "label": 21,
+            "lab": 20,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "total_fat_g",
+            "label": 15.75,
+            "lab": 15,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 8.4,
+            "lab": 8,
+            "deviationPct": 4.761904761904765,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.9,
+            "lab": 2,
+            "deviationPct": 5.263157894736848,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 100
+          },
+          {
+            "code": "sodium_mg",
+            "label": 525,
+            "lab": 500,
+            "deviationPct": 4.761904761904762,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 100
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 1.125,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.45
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b09-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-07-10",
+            "grade": "E",
+            "gradeComposite": 30.8,
+            "labelAccuracy": 100,
+            "accuracyBand": "accurate",
+            "safety": "safe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prod-b10",
+      "brandId": "brand-anchorpoint-nutrition",
+      "brandName": "Anchorpoint Nutrition",
+      "categoryId": "cat-protein-bars",
+      "categorySlug": "protein-bars",
+      "name": "Mint Chocolate Protein Bar",
+      "variant": "6 pack",
+      "packSize": "6 x 55 g",
+      "imageUrls": [],
+      "grade": "D",
+      "gradeComposite": 47,
+      "labelAccuracy": 79.3,
+      "accuracyBand": "minor_gaps",
+      "safety": "safe",
+      "publishedAt": "2026-08-15",
+      "nextTestDue": "2026-10-15",
+      "isStale": false,
+      "barcodes": [
+        "8901000000200"
+      ],
+      "labelVersion": {
+        "servingSizeG": 55,
+        "ingredientsText": "Protein blend (whey, soy), mint, dark chocolate, caramel colour (class IV).",
+        "allergens": [
+          "milk",
+          "soy"
+        ],
+        "claims": [
+          "High protein"
+        ],
+        "fssaiLicenseNo": "10019051000567",
+        "vegMark": "veg",
+        "processingLevel": 2,
+        "capturedAt": "2026-01-05"
+      },
+      "premium": {
+        "labelVsLab": [
+          {
+            "code": "energy_kcal",
+            "label": 517.5,
+            "lab": 450,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "protein_g",
+            "label": 8.5,
+            "lab": 10,
+            "deviationPct": 17.647058823529413,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.764705882352956
+          },
+          {
+            "code": "carbohydrate_g",
+            "label": 46,
+            "lab": 40,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sugar_g",
+            "label": 23,
+            "lab": 20,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "total_fat_g",
+            "label": 17.25,
+            "lab": 15,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          },
+          {
+            "code": "sat_fat_g",
+            "label": 9.2,
+            "lab": 8,
+            "deviationPct": 13.04347826086956,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.78260869565221
+          },
+          {
+            "code": "fibre_g",
+            "label": 1.7,
+            "lab": 2,
+            "deviationPct": 17.647058823529417,
+            "direction": "over",
+            "harmful": false,
+            "subScore": 61.76470588235294
+          },
+          {
+            "code": "sodium_mg",
+            "label": 575,
+            "lab": 500,
+            "deviationPct": 13.043478260869565,
+            "direction": "under",
+            "harmful": false,
+            "subScore": 84.7826086956522
+          }
+        ],
+        "contaminants": [
+          {
+            "parameterCode": "lead_mg_kg",
+            "value": 0.25,
+            "belowDetection": false,
+            "limit": 2.5,
+            "ratio": 0.1
+          },
+          {
+            "parameterCode": "cadmium_mg_kg",
+            "value": 0.075,
+            "belowDetection": false,
+            "limit": 1.5,
+            "ratio": 0.049999999999999996
+          },
+          {
+            "parameterCode": "arsenic_mg_kg",
+            "value": 0.044,
+            "belowDetection": false,
+            "limit": 1.1,
+            "ratio": 0.039999999999999994
+          }
+        ],
+        "labReportPath": null,
+        "scoreHistory": [
+          {
+            "batchId": "batch-b10-c1",
+            "cycleNumber": 1,
+            "publishedAt": "2026-08-15",
+            "grade": "D",
+            "gradeComposite": 47,
+            "labelAccuracy": 79.3,
+            "accuracyBand": "minor_gaps",
+            "safety": "safe"
+          }
+        ]
+      }
+    }
+  ]
+}

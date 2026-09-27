@@ -28,8 +28,8 @@ Legend: 📱 = check on iPhone in Expo Go.
 - [x] Theme tokens, `ThemeProvider`, `useTheme` (light/dark follows system)
 - [x] Grade colour contrast test (≥ 4.5:1)
 - [x] Components: `GradeBadge`, `AccuracyMeter`, `SafetyPill`, `FreshnessTag`, `ProductCard`, `EmptyState`, `Skeleton`, `PremiumLock`
-- [ ] Mock data (per `DESIGN.md` §7): 20 fictional products, scores produced by `packages/core`
-- [ ] Repository interfaces + `MockProductRepository`; `EXPO_PUBLIC_DATA_SOURCE` switch
+- [x] Mock data (per `DESIGN.md` §7): 20 fictional products, scores produced by `packages/core`
+- [x] Repository interfaces + `MockProductRepository`; `EXPO_PUBLIC_DATA_SOURCE` switch
 - [ ] 📱 A temporary "component gallery" screen shows every component in light and dark mode
 
 ## Phase 2 — Consumer app on mock data
