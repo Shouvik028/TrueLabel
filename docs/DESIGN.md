@@ -11,7 +11,9 @@ Goal: a lab report that reads in three seconds. **Verdict first, evidence one ta
 5. **Fast paths.** Scan is one tap from every tab. Search remembers recent queries.
 6. **Honest paywall.** Free information is never hidden; Premium sections show a blurred preview with a clear lock.
 
-## 2. Tokens (`apps/mobile/src/theme/tokens.ts`)
+## 2. Tokens
+
+The base palette, grade colours, safety colours and label-accuracy-band colours are defined once in `packages/core/src/theme/colors.ts` (light + dark, plus a `contrastRatio` helper and a Vitest suite asserting every pair below is ≥ 4.5:1), so the admin panel can reuse the exact same values. `apps/mobile/src/theme/tokens.ts` imports that palette and adds spacing, radius and the type scale, which stay mobile-only.
 
 ### Colour (light / dark)
 
@@ -42,16 +44,25 @@ Add a unit test that checks each fill/text pair has a contrast ratio ≥ 4.5:1 a
 
 ### Safety
 
-| Status | Icon (Ionicons) | Colour |
-| --- | --- | --- |
-| Safe | `shield-checkmark` | `#1B7F3B` |
-| Caution | `alert-circle` | `#B45309` |
-| Unsafe | `close-circle` | `#B42318` |
-| Not assessed | `help-circle` | `textMuted` |
+| Status | Icon (Ionicons) | Colour (light) | Colour (dark) |
+| --- | --- | --- | --- |
+| Safe | `shield-checkmark` | `#1B7F3B` | `#34D399` |
+| Caution | `alert-circle` | `#B45309` | `#FBBF24` |
+| Unsafe | `close-circle` | `#B42318` | `#F87171` |
+| Not assessed | `help-circle` | `textMuted` | `textMuted` |
+
+The light shades are rendered as icon/text colour directly on `bg`/`surface` and only clear 4.5:1 against the light palette (2.9–3.8:1 against dark `bg`/`surface`). The dark column above is lightened tints of the same hue, added so the same rule holds in dark mode; verified by the Vitest suite in `packages/core/src/theme/colors.test.ts`.
 
 ### Label accuracy bands
 
-Accurate `#1B7F3B` · Minor gaps `#4D7C0F` · Misleading `#B45309` · Inaccurate `#B42318`. Always show the number and the band word.
+| Band | Colour (light) | Colour (dark) |
+| --- | --- | --- |
+| Accurate | `#1B7F3B` | `#34D399` |
+| Minor gaps | `#4D7C0F` | `#A3E635` |
+| Misleading | `#B45309` | `#FBBF24` |
+| Inaccurate | `#B42318` | `#F87171` |
+
+Same dark-mode contrast fix as Safety above. Always show the number and the band word.
 
 ### Type, spacing, shape
 

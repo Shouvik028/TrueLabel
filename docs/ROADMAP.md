@@ -25,9 +25,9 @@ Legend: 📱 = check on iPhone in Expo Go.
 - [x] `computeSafety`, `computeLabelAccuracy`, `computeFoodGrade`, `computeFreshness`, `computeProductScore`
 - [x] Vitest tests for every vector V1–V10 in `SCORING.md`, plus edge cases (missing values, negative input rejected)
 - [x] Zod schemas for label data and lab results
-- [ ] Theme tokens, `ThemeProvider`, `useTheme` (light/dark follows system)
-- [ ] Grade colour contrast test (≥ 4.5:1)
-- [ ] Components: `GradeBadge`, `AccuracyMeter`, `SafetyPill`, `FreshnessTag`, `ProductCard`, `EmptyState`, `Skeleton`, `PremiumLock`
+- [x] Theme tokens, `ThemeProvider`, `useTheme` (light/dark follows system)
+- [x] Grade colour contrast test (≥ 4.5:1)
+- [x] Components: `GradeBadge`, `AccuracyMeter`, `SafetyPill`, `FreshnessTag`, `ProductCard`, `EmptyState`, `Skeleton`, `PremiumLock`
 - [ ] Mock data (per `DESIGN.md` §7): 20 fictional products, scores produced by `packages/core`
 - [ ] Repository interfaces + `MockProductRepository`; `EXPO_PUBLIC_DATA_SOURCE` switch
 - [ ] 📱 A temporary "component gallery" screen shows every component in light and dark mode
