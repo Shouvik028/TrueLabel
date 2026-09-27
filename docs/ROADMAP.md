@@ -16,7 +16,7 @@ Legend: 📱 = check on iPhone in Expo Go.
 - [x] `.env.example` files for mobile (and admin placeholder)
 - [x] `README.md`: prerequisites (Node 20.19.4+, Expo account, Expo Go), setup, how to run on iPhone
 - [x] `npx expo-doctor` clean
-- [ ] 📱 App opens in Expo Go and shows a placeholder "TrueLabel" screen
+- [x] 📱 App opens in Expo Go and shows a placeholder "TrueLabel" screen
 
 ## Phase 1 — Scoring engine, design system, mock data
 
