@@ -4,11 +4,16 @@ import {
   ThemeProvider as NavigationThemeProvider,
 } from '@react-navigation/native';
 import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useMemo } from 'react';
 import 'react-native-reanimated';
 
 import { ThemeProvider, useTheme } from '@/src/theme';
+
+// Keep the splash up until app/index.tsx has seen the persisted onboarding state
+// and hides it. Must run at module level, before the first render.
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
 function Navigation() {
   const theme = useTheme();
@@ -30,11 +35,15 @@ function Navigation() {
     };
   }, [theme]);
 
+  // The Stack must render on the first render (never null) so a Redirect can't
+  // fire before the navigator is mounted.
   return (
     <NavigationThemeProvider value={navigationTheme}>
-      <Stack>
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="gallery" options={{ title: 'Component gallery' }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="index" />
+        <Stack.Screen name="onboarding" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="(tabs)" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="gallery" options={{ headerShown: true, title: 'Component gallery' }} />
       </Stack>
       <StatusBar style={theme.mode === 'dark' ? 'light' : 'dark'} />
     </NavigationThemeProvider>
