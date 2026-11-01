@@ -30,12 +30,23 @@ Legend: 📱 = check on iPhone in Expo Go.
 - [x] Components: `GradeBadge`, `AccuracyMeter`, `SafetyPill`, `FreshnessTag`, `ProductCard`, `EmptyState`, `Skeleton`, `PremiumLock`
 - [x] Mock data (per `DESIGN.md` §7): 20 fictional products, scores produced by `packages/core`
 - [x] Repository interfaces + `MockProductRepository`; `EXPO_PUBLIC_DATA_SOURCE` switch
-- [ ] 📱 A temporary "component gallery" screen shows every component in light and dark mode
+- [x] 📱 A temporary "component gallery" screen shows every component in light and dark mode
 
 ## Phase 2 — Consumer app on mock data
 
-- [ ] Expo Router tab layout: Home, Search, Scan (raised centre), Saved, Profile
-- [ ] Onboarding (3 slides) + goal picker; shown once (persisted)
+> **Branch breakdown** (one at a time, in order; the task list below is unchanged):
+>
+> 1. `feat/app-navigation`: tab layout (Home, Search, raised Scan, Saved, Profile) + onboarding (3 slides) and goal picker, shown once (persisted)
+> 2. `feat/home-search`: Home screen, Search with filters, sort, recent searches, no-results → request CTA
+> 3. `feat/product-page`: product page with all sections; premium sections behind `PremiumLock`
+> 4. `feat/barcode-scanner`: `expo-camera` scanner, permission flow, torch, haptics, Not-tested sheet, Developer "simulate scan"
+> 5. `feat/saved-and-requests`: Saved (favourites + scan history, local persistence), test request queue with upvotes
+> 6. `feat/premium-and-compare`: Paywall, `MockPremiumService`, Developer premium toggle, Compare (up to 3)
+> 7. `feat/profile-and-methodology`: Profile screen, Methodology screen driven by `packages/core` config, offline caching of favourites and recently viewed
+> 8. `feat/accessibility-polish`: accessibility pass, remove gallery from production navigation, full end-to-end check
+
+- [x] Expo Router tab layout: Home, Search, Scan (raised centre), Saved, Profile
+- [x] Onboarding (3 slides) + goal picker; shown once (persisted)
 - [ ] Home screen
 - [ ] Search with filters, sort, recent searches, no-results → request CTA
 - [ ] Product page with all sections; Premium sections behind `PremiumLock`
