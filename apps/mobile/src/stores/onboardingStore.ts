@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
@@ -39,13 +39,11 @@ export const useOnboardingStore = create<OnboardingState>()(
 
 /** True once the persisted state has been read from AsyncStorage. */
 export function useOnboardingHydrated(): boolean {
-  const [hydrated, setHydrated] = useState(() => useOnboardingStore.persist.hasHydrated());
-
-  useEffect(() => {
-    // Re-check in case hydration finished between the initial render and this effect.
-    setHydrated(useOnboardingStore.persist.hasHydrated());
-    return useOnboardingStore.persist.onFinishHydration(() => setHydrated(true));
-  }, []);
-
-  return hydrated;
+  // useSyncExternalStore re-reads the snapshot after subscribing, so hydration that
+  // finishes between the first render and the subscription is not missed.
+  return useSyncExternalStore(
+    (onChange) => useOnboardingStore.persist.onFinishHydration(onChange),
+    () => useOnboardingStore.persist.hasHydrated(),
+    () => false,
+  );
 }

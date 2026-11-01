@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { Animated, Easing, StyleSheet, type DimensionValue } from 'react-native';
 
 import { useReduceMotion } from '@/src/hooks/useReduceMotion';
@@ -18,7 +18,7 @@ const PULSE_DURATION_MS = 800;
 export function Skeleton({ width = '100%', height = 16, borderRadius, style }: SkeletonProps) {
   const theme = useTheme();
   const reduceMotion = useReduceMotion();
-  const opacity = useRef(new Animated.Value(PULSE_MAX_OPACITY)).current;
+  const [opacity] = useState(() => new Animated.Value(PULSE_MAX_OPACITY));
 
   useEffect(() => {
     if (reduceMotion) {
