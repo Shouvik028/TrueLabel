@@ -27,9 +27,9 @@ If documents conflict, precedence is: user instruction > DECISIONS.md > SCORING.
 
 ## Hard constraints
 
-1. **Expo SDK 54 only.** The user tests on a physical iPhone with the App Store version of **Expo Go**, which runs SDK 54. Newer SDKs will not load in it. Do not upgrade the SDK or React Native unless the user explicitly asks.
+1. **Match the SDK of the App Store version of Expo Go.** While we test on device with Expo Go (until Phase 5), use the SDK version supported by the App Store version of Expo Go, currently 58, and never upgrade beyond it. Newer SDKs will not load in it. From Phase 5 we use development builds, and any SDK upgrade is a user decision.
 2. **Expo Go compatible until Phase 5.** Use only libraries bundled in Expo Go (the Expo SDK modules plus pure-JS packages). No custom native modules, no config plugins that require a native build, no `expo prebuild`. If a feature needs native code (RevenueCat, Google/Apple sign-in, remote push), stub it behind an interface and leave it for Phase 5.
-3. **Install mobile dependencies with `npx expo install <pkg>`** (inside `apps/mobile`) so versions match SDK 54. Never hand-edit versions of `expo-*`, `react`, or `react-native`.
+3. **Install mobile dependencies with `npx expo install <pkg>`** (inside `apps/mobile`) so versions match the current SDK (58). Never hand-edit versions of `expo-*`, `react`, or `react-native`.
 4. **Scores are computed only on the server / admin side**, never in the consumer app. The mobile app only reads published scores.
 5. **Scores are never edited in place.** A correction inserts a new score row that supersedes the old one.
 6. **Two-person rule.** The user who entered lab results cannot approve or publish them. Enforce this in the database, not just the UI.
@@ -56,6 +56,7 @@ If documents conflict, precedence is: user instruction > DECISIONS.md > SCORING.
 7. For work that is neither a feature nor a fix (docs-only, tooling, dependency bumps), ask the user which branch to use.
 8. At the end of each task, give the user: the branch name, the list of changed files, and a suggested commit message. Nothing else happens in git.
 9. Never add a `Co-Authored-By` line or any other trailer, signature or AI attribution to commit messages or pull request descriptions, including in suggested commit messages.
+10. Never delete branches, local or remote, and never suggest deleting them. Merged branches are kept for record-keeping.
 
 ## Commands (once scaffolded)
 
@@ -69,7 +70,7 @@ npm run admin                      # start admin panel (apps/admin), Phase 4+
 npm run test                       # unit tests (packages/core scoring engine)
 npm run typecheck                  # tsc --noEmit across workspaces
 npm run lint                       # eslint
-cd apps/mobile && npx expo-doctor  # check dependency compatibility with SDK 54
+cd apps/mobile && npx expo-doctor  # check dependency compatibility with SDK 58
 ```
 
 ## Definition of done (every task)

@@ -42,6 +42,8 @@ export default function GalleryScreen() {
 
   return (
     <ScrollView
+      // iOS 26+ draws the stack header transparent over the content; this insets it.
+      contentInsetAdjustmentBehavior="automatic"
       style={{ backgroundColor: theme.colors.bg }}
       contentContainerStyle={[styles.content, { padding: theme.spacing.lg, gap: theme.spacing.xl }]}>
       <Section title={`Mock products (${ALL_MOCK_PRODUCTS.length})`}>

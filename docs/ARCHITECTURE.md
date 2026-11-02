@@ -4,7 +4,7 @@
 
 | Layer | Choice | Notes |
 | --- | --- | --- |
-| Mobile app | **Expo SDK 54** (React Native 0.81, React 19.1), TypeScript, **Expo Router** | Pinned to SDK 54 so it runs in the App Store version of Expo Go (see §2) |
+| Mobile app | **Expo SDK 58** (React Native 0.88, React 19.3), TypeScript 6, **Expo Router** | Tracks the SDK supported by the App Store version of Expo Go (see §2) |
 | Server data | `@tanstack/react-query` | Caching, retries, offline-friendly |
 | Client state | `zustand` | Small stores only (onboarding, compare tray, dev flags) |
 | Forms / validation | `react-hook-form` + `zod` | Zod schemas shared from `packages/core` |
@@ -18,18 +18,18 @@
 | Payments | RevenueCat (Phase 5, needs development build) | Stubbed by a `PremiumService` interface until then |
 | Push | `expo-notifications` remote push (Phase 5, development build) | Stubbed until then |
 | Analytics / errors | PostHog, Sentry (Phase 6) | |
-| Node | 20.19.4 or newer (Node 22 LTS recommended) | Required by React Native 0.81 |
+| Node | 22.13 or newer on the 22 line (or 24.3+, 26+); odd-numbered releases unsupported | Required by Expo SDK 58 |
 
 ## 2. Expo Go constraint (important)
 
-The user tests on an iPhone using **Expo Go from the App Store**. As of mid-2026 the App Store build of Expo Go supports **SDK 54**; Expo Go builds for SDK 55–57 have not been approved on the App Store ([Expo changelog, May 2026](https://expo.dev/changelog/expo-go-and-app-store-may-2026), [SDK 57 notes](https://expo.dev/changelog/sdk-57)).
+The user tests on an iPhone using **Expo Go from the App Store**. An Expo Go build supports exactly one SDK. The App Store build currently supports **SDK 58** ([SDK 58 changelog](https://expo.dev/changelog/sdk-58)); the project moved from SDK 54 to 58 when the App Store build changed (DECISIONS #19).
 
 Therefore:
 
-- Create the app with `npx create-expo-app@latest apps/mobile --template default@sdk-54`. The `expo` package must stay on `~54.x`.
-- Before scaffolding, confirm the SDK shown in Expo Go on the iPhone (Expo Go → Settings / profile shows supported SDK). If it shows a different SDK, stop and tell the user.
+- While we test on device with Expo Go (Phases 0–4), the `expo` package stays on the SDK supported by the App Store version of Expo Go, currently `~58.x`, and is never upgraded beyond it. If Expo Go on the phone supports a different SDK, stop and tell the user.
+- Upgrade one SDK at a time with `npx expo install expo@^<version> --fix` in `apps/mobile`, then run typecheck, lint, tests, `npx expo-doctor` and `npx expo export --platform ios`.
 - Phases 0–4 use only Expo Go-compatible modules.
-- Phase 5 switches to **EAS development builds** (needs an Apple Developer account for iPhone installs). At that point the SDK can be upgraded, and native modules (RevenueCat, Apple/Google sign-in, push) are added. Any SDK upgrade is a user decision.
+- Phase 5 switches to **EAS development builds** (needs an Apple Developer account for iPhone installs). From then on the SDK no longer has to track Expo Go, and native modules (RevenueCat, Apple/Google sign-in, push) are added. Any SDK upgrade from that point is a user decision.
 
 Features that need native code and how they are handled before Phase 5:
 
@@ -49,7 +49,7 @@ TrueLabel/
 ├─ .env.example
 ├─ docs/
 ├─ apps/
-│  ├─ mobile/                # Expo SDK 54 app
+│  ├─ mobile/                # Expo SDK 58 app
 │  │  ├─ app/                # Expo Router routes
 │  │  │  ├─ _layout.tsx
 │  │  │  ├─ onboarding/
@@ -81,7 +81,7 @@ TrueLabel/
 
 Root scripts: `mobile`, `mobile:tunnel`, `admin`, `test`, `typecheck`, `lint`.
 
-Metro in SDK 54 detects monorepos automatically. If `packages/core` fails to resolve in Metro, add `watchFolders` in `apps/mobile/metro.config.js` and record it in `DECISIONS.md`.
+Metro in SDK 58 detects monorepos automatically (verified: `npx expo export --platform ios` bundles `packages/core` with no `metro.config.js`). If `packages/core` fails to resolve in Metro, add `watchFolders` in `apps/mobile/metro.config.js` and record it in `DECISIONS.md`.
 
 ## 4. Data access pattern (mobile)
 

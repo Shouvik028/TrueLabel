@@ -1,5 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
+import type { ComponentProps } from 'react';
 import type { ColorValue } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -7,10 +8,12 @@ import { ScanButton } from '@/src/components';
 import { useTheme } from '@/src/theme';
 
 type IconName = keyof typeof Ionicons.glyphMap;
+type IconColor = ComponentProps<typeof Ionicons>['color'];
 
 function tabIcon(active: IconName, inactive: IconName) {
   return function TabIcon({ color, size, focused }: { color: ColorValue; size: number; focused: boolean }) {
-    return <Ionicons name={focused ? active : inactive} size={size} color={color} />;
+    // The tab bar passes a plain colour string; Ionicons' prop type is narrower than ColorValue.
+    return <Ionicons name={focused ? active : inactive} size={size} color={color as IconColor} />;
   };
 }
 

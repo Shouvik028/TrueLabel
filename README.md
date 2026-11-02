@@ -19,7 +19,7 @@ See [`CLAUDE.md`](CLAUDE.md) for how this repo is built with Claude Code.
 
 ## Stack
 
-Expo SDK 54 (React Native, TypeScript, Expo Router) for mobile, Supabase
+Expo SDK 58 (React Native, TypeScript, Expo Router) for mobile, Supabase
 (Postgres, Auth, Storage, RLS) as the backend, Next.js for the staff admin
 panel, and a shared `packages/core` for types and the scoring engine. Full
 detail in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
@@ -28,7 +28,7 @@ detail in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 ```text
 apps/
-  mobile/      Expo SDK 54 app (iOS + Android)
+  mobile/      Expo SDK 58 app (iOS + Android)
   admin/       Next.js admin panel (staff only, from Phase 4)
 packages/
   core/        Shared types + scoring engine (pure TypeScript)
@@ -38,11 +38,12 @@ docs/          Product and technical documentation
 
 ## Prerequisites
 
-- Node.js **20.19.4+** (Node 22 LTS recommended)
+- Node.js **22.13+** on the 22 line (or 24.3+ / 26+; odd-numbered releases such
+  as 23 and 25 are not supported)
 - npm 10+
 - An [Expo account](https://expo.dev/signup) (Expo Go requires sign-in)
-- **Expo Go** installed on your iPhone from the App Store, showing **SDK 54**
-  in its Settings/profile tab
+- **Expo Go** installed on your iPhone from the App Store, supporting
+  **SDK 58** (the project is pinned to the SDK the App Store version supports)
 
 ## Setup
 
@@ -69,13 +70,14 @@ npm run admin                      # start admin panel (apps/admin), Phase 4+
 npm run test                       # unit tests (packages/core scoring engine)
 npm run typecheck                  # tsc --noEmit across workspaces
 npm run lint                       # eslint
-cd apps/mobile && npx expo-doctor  # check dependency compatibility with SDK 54
+cd apps/mobile && npx expo-doctor  # check dependency compatibility with SDK 58
 ```
 
 ## Run on iPhone (Expo Go)
 
 1. Install **Expo Go** from the App Store and sign in with an Expo account.
-2. On your computer, run `npx expo login` with the same account.
+2. On your computer, run `npx expo login` with the same account (it signs in
+   through the browser).
 3. Make sure the iPhone and computer are on the same Wi-Fi, then run
    `npm run mobile` from the repo root.
 4. Scan the QR code shown in the terminal with the iPhone **Camera** app and
